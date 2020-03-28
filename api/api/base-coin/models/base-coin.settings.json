@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "coins",
+  "info": {
+    "name": "Coins"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Ticker": {
+      "type": "uid"
+    }
+  }
+}

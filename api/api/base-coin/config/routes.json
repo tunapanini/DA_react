@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/base-coins",
+      "handler": "base-coin.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/base-coins/count",
+      "handler": "base-coin.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/base-coins/:id",
+      "handler": "base-coin.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/base-coins",
+      "handler": "base-coin.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/base-coins/:id",
+      "handler": "base-coin.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/base-coins/:id",
+      "handler": "base-coin.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
